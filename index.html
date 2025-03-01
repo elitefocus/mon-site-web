@@ -1,1 +1,116 @@
-<a href="https://elitefocus.fr" class="btn-primary">Je passe à l’action !</a>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteFocus - Libère ton potentiel</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation: fadeIn 1.5s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        section {
+            padding: 50px;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 1s ease-out forwards;
+        }
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        header, footer {
+            background: #333;
+            color: white;
+            padding: 15px 0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #ff6600;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EliteFocus</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#livre">Livre</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="accueil">
+        <h2>Libère ton potentiel avec EliteFocus</h2>
+        <p>Bienvenue sur EliteFocus, l'espace dédié à ceux qui veulent avancer, progresser et atteindre leurs objectifs.</p>
+        <button>Je passe à l'action !</button>
+    </section>
+    
+    <section id="apropos">
+        <h2>Notre mission</h2>
+        <p>Chez EliteFocus, nous croyons en la puissance du bon mindset et des actions concrètes. Notre objectif est simple : t'aider à débloquer ton potentiel et à réussir, quelle que soit ta situation actuelle.</p>
+    </section>
+    
+    <section id="livre">
+        <h2>Investis en toi-même dès aujourd’hui !</h2>
+        <p>Tu veux un changement ? Tu veux plus de motivation et des résultats concrets ? Ce livre est pour toi.</p>
+        <ul>
+            <li>Comment reprogrammer ton esprit pour la réussite</li>
+            <li>Des stratégies concrètes pour rester motivé</li>
+            <li>Comment passer de la théorie à l’action</li>
+        </ul>
+        <p><strong>📌 Prix unique : 10€</strong></p>
+        <button>Je passe à l'action !</button>
+    </section>
+    
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Retrouve des articles inspirants sur la motivation, le mindset et les stratégies de réussite.</p>
+        <ul>
+            <li>Comment rester motivé chaque jour ?</li>
+            <li>Les habitudes des entrepreneurs qui réussissent</li>
+            <li>Le secret pour éviter la procrastination</li>
+        </ul>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Une question ? Un projet ? Envie d'échanger ?</p>
+        <p>📩 Contacte-nous ici : <a href="mailto:contact@elitefocus.fr">contact@elitefocus.fr</a></p>
+        <p>📱 Suivez-nous sur les réseaux sociaux :</p>
+        <a href="https://www.instagram.com/elitefocus" target="_blank"><img src="instagram.png" alt="Instagram" width="30"></a>
+        <a href="https://www.tiktok.com/@elitefocus" target="_blank"><img src="tiktok.png" alt="TikTok" width="30"></a>
+        <a href="https://www.youtube.com/c/elitefocus" target="_blank"><img src="youtube.png" alt="YouTube" width="30"></a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 EliteFocus. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
